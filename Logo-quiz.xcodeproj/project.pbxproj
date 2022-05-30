@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B75C6C202844ABEE00A5205A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75C6C1F2844ABEE00A5205A /* MenuViewController.swift */; };
 		B78A7B2B283A5B07000E14A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78A7B2A283A5B07000E14A5 /* AppDelegate.swift */; };
 		B78A7B2D283A5B07000E14A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78A7B2C283A5B07000E14A5 /* SceneDelegate.swift */; };
 		B78A7B2F283A5B07000E14A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78A7B2E283A5B07000E14A5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B75C6C1F2844ABEE00A5205A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B78A7B27283A5B07000E14A5 /* Logo-quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logo-quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78A7B2A283A5B07000E14A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B78A7B2C283A5B07000E14A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				B78A7B33283A5B07000E14A5 /* Assets.xcassets */,
 				B78A7B35283A5B07000E14A5 /* LaunchScreen.storyboard */,
 				B78A7B38283A5B07000E14A5 /* Info.plist */,
+				B75C6C1F2844ABEE00A5205A /* MenuViewController.swift */,
 			);
 			path = "Logo-quiz";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				B78A7B2F283A5B07000E14A5 /* ViewController.swift in Sources */,
 				B78A7B2B283A5B07000E14A5 /* AppDelegate.swift in Sources */,
 				B78A7B2D283A5B07000E14A5 /* SceneDelegate.swift in Sources */,
+				B75C6C202844ABEE00A5205A /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +307,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,7 +334,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
