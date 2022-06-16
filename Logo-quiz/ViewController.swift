@@ -32,7 +32,6 @@ class ViewController: UIViewController {
     var currentScore: Int = 1
     var currentCountry = ""
     
-    static var currentScore: String = "7"
     
     override func viewDidLoad() {
         super.viewDidLoad()
